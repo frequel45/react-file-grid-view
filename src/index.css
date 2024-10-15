@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 20px;
+}
+
+.view-toggle button {
+  margin-right: 10px;
+}
+
+.file-grid-view,
+.cluster-view {
+  margin-top: 20px;
+}
+
+.cluster {
+  margin-bottom: 20px;
+}
+
+.cluster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
